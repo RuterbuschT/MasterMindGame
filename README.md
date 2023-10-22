@@ -1,5 +1,6 @@
 # MasterMindGame
-This is my own spin on the MasterMind game that is generally with numbers, but instead I used colors.
-When selecting a color, your guess will be populated below the choices so there is visual representation to help with what was clicked.
-When submit is hit the entire guessed color combination string will be populated above and if any of the choices are in the secret code, but not in the right spot it will be surrounded in a yellow border.
-If the color is in the right spot and in the secret code the guess will be surrounded in a pink border.
+MasterMind Game with colors instead of numbers.
+Created a visual representation of the guess before the player hits submit so the player has a visual representation of their guess.
+When the player hits submit, it will take that array of guessed colors and display them.
+Every color that is in the secret code, but not in the right spot will have a yellow border.
+Every color that is in the secret code and in the right spot will have a pink border.
